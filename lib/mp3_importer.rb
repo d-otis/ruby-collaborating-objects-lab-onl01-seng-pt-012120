@@ -19,7 +19,7 @@ class MP3Importer
   end
   
   def import
-    # uses Song.new_by_file
+    # uses Song.new_by_filename
     files
     binding.pry
   end

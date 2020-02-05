@@ -18,7 +18,9 @@ class MP3Importer
     trimmed_list
   end
   
-  
+  def import
+    
+  end
   
   
 end

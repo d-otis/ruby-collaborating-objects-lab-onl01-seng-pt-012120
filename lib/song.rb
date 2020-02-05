@@ -27,6 +27,7 @@ class Song
     # BELOW searches through the Artist @@all class variable
     # using the Artist class method created in the other file
     # this way the Artist is an object and not just a string
+    
     new_song.artist = Artist.find_or_create_by_name(artist)
     new_song
   end
